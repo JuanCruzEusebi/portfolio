@@ -1,0 +1,29 @@
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin init {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+//palette
+
+$bgColor: #082B2A;
+$borderColor: #E6E697;
+$brown: #302913;
+$blue: #082D35;
+$lightGreen: #456557;
+  
+@font-face {
+  font-family: 'greatSailor';
+  src: url('../public/fonts/great-sailor-webfont.woff2') format('woff2'),
+       url('../public/fonts/great-sailor-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

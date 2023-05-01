@@ -1,0 +1,30 @@
+@import '../../styles/utilites.scss';
+
+.mainContainer {
+    @include init;
+    min-height: 60vh;
+    width: auto;
+    @include center;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: auto;
+    width: 20vw;
+    max-width: 400px;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px){
+    .mainContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .img {
+        margin: 10px 0px;
+    }
+
+}
+
+

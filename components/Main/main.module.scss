@@ -1,0 +1,24 @@
+@import '../../styles/utilites.scss';
+
+.mainContainer {
+    background-color: $bgColor;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.mainWrapper {
+    border: $lightGreen 1px solid;
+    height: 100%;
+    border-radius: 2px;
+    width: auto;
+
+}
+
+@media (max-width: 800px){
+    .mainContainer {
+    height: 100%;
+
+        width: 100%;
+    }
+}

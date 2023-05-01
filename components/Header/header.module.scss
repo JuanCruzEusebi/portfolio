@@ -1,0 +1,44 @@
+@import '../../styles/utilites.scss';
+
+.linkContainer {
+    @include init;
+    @include center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.link {
+    @include center;
+    color: $borderColor;
+    font-family: 'greatSailor';
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    width: 15%;
+    height: 20vh;
+}
+
+.heading {
+    position: relative;
+    @include center;
+    color: $borderColor;
+    font-weight: 100;
+    font-family: 'greatSailor';
+    text-align: center;
+    font-size: 1.7em;
+    align-self: flex-end;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .link {
+        height: 10vh;
+        width: 50%;
+    }
+
+    .heading {
+        width: 100%;
+        order: 1;
+        padding: 40px 0px;
+    }
+}

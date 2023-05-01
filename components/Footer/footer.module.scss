@@ -1,0 +1,17 @@
+@import '../../styles/utilites.scss';
+
+.mainContainer {
+    @include center;
+    @include init;
+    height: 10vh;
+    width: auto;
+
+}
+
+.link {
+    color: $borderColor;
+    font-family: 'greatSailor';
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
