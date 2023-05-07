@@ -3,29 +3,31 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function MyWork() {
+  function Link() {}
+
   return (
-    <div className={style.mainContainer}>
-      <Image
-        src={"/imgs/Frame1.png"}
+    <div className={style.wrapper}>
+      <div className={style.mainContainer}>
+        {/* <Image
+        src={"/imgs/FrameWhite.png"}
         alt="'img"
         width={500}
         height={500}
         className={style.img}
-      />
-      <Image
-        src={"/imgs/Frame2.png"}
-        alt="'img"
-        width={400}
-        height={400}
-        className={style.img}
-      />
-      <Image
-        src={"/imgs/Frame3.png"}
-        alt="'img"
-        width={400}
-        height={400}
-        className={style.img}
-      />
+      /> */}
+
+        <div className={style.circle}>
+          <h1 className={style.circleHeading}>ForzaGym</h1>
+        </div>
+        <div className={style.circle}>
+          <h1 className={style.circleHeading}>
+            Nuevos <br /> Servicios
+          </h1>
+        </div>
+        <div className={style.circle}>
+          <h1 className={style.circleHeading}>WineNot?</h1>
+        </div>
+      </div>
     </div>
   );
 }

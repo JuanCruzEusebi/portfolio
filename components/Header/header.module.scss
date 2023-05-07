@@ -11,6 +11,9 @@
 .link {
     @include center;
     color: $borderColor;
+    color: $blue;
+
+    color: black;
     font-family: 'greatSailor';
     font-size: 1.2em;
     letter-spacing: 2px;
@@ -22,6 +25,7 @@
     position: relative;
     @include center;
     color: $borderColor;
+    color: $blue;
     font-weight: 100;
     font-family: 'greatSailor';
     text-align: center;
