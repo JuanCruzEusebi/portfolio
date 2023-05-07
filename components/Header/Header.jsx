@@ -12,7 +12,7 @@ export default function Header(props) {
 
   return (
     <div className={style.linkContainer}>
-      <Link className={style.link} href={""} onClick={ContactForm}>
+      <Link className={style.link} href={"#form"} onClick={ContactForm}>
         Contact .
       </Link>
       <h1 className={style.heading}>
