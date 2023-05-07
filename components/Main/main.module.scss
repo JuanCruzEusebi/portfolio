@@ -1,6 +1,7 @@
 @import '../../styles/utilites.scss';
 
 .mainContainer {
+    overflow-x: scroll;
     background-color: $bgColor;
     background-color: whitesmoke;
     width: 100vw;
@@ -13,7 +14,11 @@
     height: 100%;
     border-radius: 2px;
     width: auto;
+    transition: 1s all ease-in;
+}
 
+.activeMain {
+    border-left: 0px;
 }
 
 @media (max-width: 800px){
